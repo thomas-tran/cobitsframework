@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cobits-asset-management:
+    image: cobits-asset-management
+    build:
+      context: ./Cobits-Asset-Management
+      dockerfile: Dockerfile
